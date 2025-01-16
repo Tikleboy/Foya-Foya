@@ -1,0 +1,119 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.balance-card {
+    background-color: #e0f7fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.balance-card h2{
+  margin-bottom: 0;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+.form-container h2 {
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 4px;
+}
+.form-group input[type="number"] {
+    width: 98.5%;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.transaction-list {
+    margin-top: 20px;
+}
+
+.transaction-list h2 {
+    margin-bottom: 15px;
+}
+
+#transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#transaction-table th,
+#transaction-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#transaction-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+.action-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.action-buttons button{
+  padding: 5px 10px;
+}
+.delete-button{
+    background-color: #f44336;
+}
+.delete-button:hover{
+    background-color: #d32f2f;
+}
